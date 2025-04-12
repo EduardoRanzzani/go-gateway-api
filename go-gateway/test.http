@@ -1,5 +1,5 @@
 ### Variáveis globais
-@baseUrl = http://localhost:8080
+@baseUrl = http://localhost:8089
 @apiKey = {{createAccount.response.body.api_key}}
 
 ### Criar uma nova conta
@@ -8,8 +8,8 @@ POST {{baseUrl}}/accounts
 Content-Type: application/json
 
 {
-    "name": "John Doe",
-    "email": "john@doew.com"
+    "name": "Usuario Teste",
+    "email": "teste@teste.com"
 }
 
 ### Obter dados da conta
